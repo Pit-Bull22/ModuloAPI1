@@ -114,7 +114,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ---
 
-Feito com ❤️ por Rafael Santos(https://github.com/Pit-Bull22)
+Feito com ❤️ por Rafael Santos (https://github.com/Pit-Bull22)
 
 
 
