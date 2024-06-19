@@ -22,11 +22,12 @@
 
 2. Configure a string de conexão no arquivo `appsettings.json`:
    
-``{
+~~~~{
   "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=SeuBancoDeDados;User Id=SeuUsuario;Password=SuaSenha;"
   }
-}``
+}
+~~~~
 
 3. Atualize o banco de dados para aplicar as migrações:
 
@@ -39,10 +40,10 @@
 
 ## Estrutura do Projeto
 
-● Controllers/ContatoController.cs: Controlador com os endpoints da API.
-● Models/Contato.cs: Modelo da entidade Contato.
-● Data/ContatoContext.cs: Contexto do Entity Framework.
-● Migrations/: Pasta contendo as migrações do Entity Framework.
+* Controllers/ContatoController.cs: Controlador com os endpoints da API.
+* Models/Contato.cs: Modelo da entidade Contato.
+* Data/ContatoContext.cs: Contexto do Entity Framework.
+* Migrations/: Pasta contendo as migrações do Entity Framework.
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
