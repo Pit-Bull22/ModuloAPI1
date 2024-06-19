@@ -21,16 +21,19 @@
    cd ContatoAPI
 
 2. Configure a string de conexão no arquivo `appsettings.json`:
-`{
+   
+``{
   "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=SeuBancoDeDados;User Id=SeuUsuario;Password=SuaSenha;"
   }
-}`
+}``
 
 3. Atualize o banco de dados para aplicar as migrações:
+
 `dotnet ef database update` 
 
 4. execute a aplicação: 
+
 `dotnet run`
 
 
