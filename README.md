@@ -20,7 +20,7 @@
    git clone https://github.com/seu-usuario/ContatoAPI.git
    cd ContatoAPI
 
-2.Configure a string de conexão no arquivo 'appsettings.json':
+2. Configure a string de conexão no arquivo `appsettings.json`:
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=SeuBancoDeDados;User Id=SeuUsuario;Password=SuaSenha;"
