@@ -2,7 +2,7 @@
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-CC2927)](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)
-[![Entity Framework](https://img.shields.io/badge/Entity%20Framework-6.0-5C2D91)](https://docs.microsoft.com/en-us/ef/core/)
+[![Entity Framework](https://img.shields.io/badge/Entity%20Framework-7.0-5C2D91)](https://docs.microsoft.com/en-us/ef/core/)
 
 ## Descrição
 
