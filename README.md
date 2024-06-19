@@ -6,7 +6,7 @@
 
 ## Descrição
 
-**ContatoAPI** é uma API desenvolvida em .NET 8.0 com um CRUD básico para gerenciar contatos. A API utiliza o Entity Framework para integração com um banco de dados SQL Server. Cada contato possui um ID, Nome, Telefone e um status de Ativo.
+**ModuloAPI1** é uma API desenvolvida em .NET 8.0 com um CRUD básico para gerenciar contatos. A API utiliza o Entity Framework para integração com um banco de dados SQL Server. Cada contato possui um ID, Nome, Telefone e um status de Ativo.
 
 ## Requisitos 
 
@@ -19,6 +19,21 @@
    ```bash
    git clone https://github.com/seu-usuario/ContatoAPI.git
    cd ContatoAPI
+
+2.Configure a string de conexão no arquivo 'appsettings.json':
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=SEU_SERVIDOR;Database=SeuBancoDeDados;User Id=SeuUsuario;Password=SuaSenha;"
+  }
+}
+
+3. Atualize o banco de dados para aplicar as migrações:
+dotnet ef database update
+
+4. execute a aplicação: 
+dotnet run
+
+
 
 ## Estrutura do Projeto
 
